@@ -1,28 +1,33 @@
-import React, { useState } from "react";
-import Sidebar from "./components/common/Sidebar";
-import Header from "./components/common/Header";
-import Dashboard from "./components/Dashboard";
-import InvoiceUpload from "./components/InvoiceUpload";
-import TemplateManager from "./components/TemplateManager";
-import CommunicationCenter from "./components/CommunicationCenter";
-import "./index.css";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import Courses from "./pages/Courses";
+import PremiumPlans from "./pages/PremiumPlans";
+import Community from "./pages/Community";
+import AuthProvider from "./context/AuthContext";
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState("dashboard");
-
   return (
-    <div className="flex h-screen w-full bg-gray-50">
-      <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <div className="flex flex-col flex-1 overflow-hidden">
-        <Header />
-        <main className="flex-1 overflow-y-auto p-6">
-          {activeTab === "dashboard" && <Dashboard />}
-          {activeTab === "upload" && <InvoiceUpload />}
-          {activeTab === "templates" && <TemplateManager />}
-          {activeTab === "communication" && <CommunicationCenter />}
-        </main>
-      </div>
-    </div>
+    <AuthProvider>
+      <Router>
+        <div className="flex flex-col min-h-screen bg-gray-50">
+          <Navbar />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/courses" element={<Courses />} />
+              <Route path="/premium" element={<PremiumPlans />} />
+              <Route path="/community" element={<Community />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </AuthProvider>
   );
 };
 
