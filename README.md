@@ -28,7 +28,7 @@
 
 ## 🧭 Overview
 
-[Write 3–5 sentences here. What problem does this solve? Who uses it? What makes it different from a basic CRUD app? Be specific about real-world value.]
+This Gym Management Web Application was developed to help fitness centers manage memberships, personalized training programs, and member engagement through a single platform. The system supports both traditional gym training and calisthenics-focused fitness programs, allowing users to track their progress and follow customized workout plans. A built-in community feed encourages members to share achievements, interact with others, and stay motivated. By combining fitness management, health tracking, and social engagement, the platform delivers greater value than a standard gym administration system.
 
 **Live URL:** [https://your-app.vercel.app](https://your-app.vercel.app)  
 **Backend API:** [https://your-api.onrender.com](https://your-api.onrender.com)
@@ -47,11 +47,7 @@
 ### [Key Feature — e.g. Product Listing / User Profile / Order Flow]
 ![Feature Screenshot](./screenshots/feature.png)
 
-### Mobile View
-![Mobile View](./screenshots/mobile.png)
-<!-- Optional but impressive — shows you think responsively -->
 
-> 📁 Add all screenshots to a `/screenshots` folder in your repo root.
 
 ---
 
