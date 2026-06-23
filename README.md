@@ -1,6 +1,7 @@
-# 🚀 [Project Name]
+# 🚀 T - Rex 
 
-> [One-line description — what it does and who it's for]
+> A Gym Management Web Application designed to streamline membership management, personalized fitness packages, and wellness tracking. The platform includes a community feed that enables members to share achievements, engage with others, and stay connected within the fitness community.
+
 
 ![Project Banner](./screenshots/banner.png)
 <!-- Tip: a 1280x640px screenshot of your app's hero/dashboard works great as a banner -->
@@ -44,7 +45,7 @@
 ![Dashboard](./screenshots/dashboard.png)
 
 ### [Key Feature — e.g. Product Listing / User Profile / Order Flow]
-![Feature Screenshot](./screenshots/feature-1.png)
+![Feature Screenshot](./screenshots/feature.png)
 
 ### Mobile View
 ![Mobile View](./screenshots/mobile.png)
