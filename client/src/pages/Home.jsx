@@ -55,7 +55,7 @@ const Home = () => {
               <div className="mt-8 flex items-center">
                 <PlayIcon className="h-12 w-12 p-2 bg-white text-indigo-600 rounded-full mr-4" />
                 <p className="text-indigo-100">
-                  Watch our introduction video to see how CaliFit works
+                  Watch our introduction video to see how T - Rex works
                 </p>
               </div>
             </div>
@@ -189,7 +189,7 @@ const Home = () => {
             </h2>
             <p className="mt-4 text-xl text-gray-600">
               Join thousands of satisfied members who have transformed their
-              fitness with CaliFit.
+              fitness with T - Rex.
             </p>
           </div>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -225,7 +225,7 @@ const Home = () => {
               Ready to Transform Your Fitness?
             </h2>
             <p className="mt-4 text-xl text-indigo-100">
-              Join CaliFit today and start your journey toward mastering
+              Join T - Rex today and start your journey toward mastering
               calisthenics.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">

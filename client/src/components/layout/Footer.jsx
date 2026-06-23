@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h2 className="text-xl font-bold text-indigo-400">CaliFit</h2>
+            <h2 className="text-xl font-bold text-indigo-400">T - Rex</h2>
             <p className="mt-2 text-sm text-gray-300">
               Achieve your fitness goals with calisthenics training tailored to
               your needs.
@@ -132,7 +132,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between">
           <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} CaliFit. All rights reserved.
+            &copy; {new Date().getFullYear()} T - Rex. All rights reserved.
           </p>
           <p className="text-sm text-gray-400 mt-2 md:mt-0">
             Designed for fitness enthusiasts, by fitness enthusiasts.
